@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+    line-height: 25px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flow-root;
+    padding:1rem; 
+
+}
+
+.container{
+    
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+img{
+    border-radius: 2rem;
+    
+}
+
+.left{
+    float: left;
+}
+
+.left h1{
+    padding: 1 rem 0;
+}
+
+.divide{
+    padding: 2.5rem;
+}
+.divide p{
+    padding: 2.5rem;
+    width: 950px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear{
+   clear: left; 
+}
+
+
+.container-about{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+    margin-top: 2.5rem;
+    width: 600px;
+    border: 2px;
+    
+}
+
+
+#work{
+    scroll-behavior: smooth;
+}
+
+.work-experience{
+    line-height: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 40rem;
+    padding: 10px;
+}
+
+.ul-container{
+    list-style-position: inside;
+    list-style-image: url(b_favorite.png);
+}
+
+span{
+    font-weight: lighter;   
+}
+
+.education{
+    
+    line-height: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 40rem;
+    padding: 10px;
+}
+.hobbies{
+    
+    line-height: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 40rem;
+    padding: 10px;
+    max-width: 640px;
+
+}
+
+hr{
+    margin:0 2rem;
+    border: 2px solid;
+    padding-top: 2px;
+    border-radius: 30%;
+    border-color: aqua;
+}
+.contact{
+    line-height: 2;
+}
+
+button{
+    font-size: larger;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+button:hover{
+    background-color: dodgerblue;
+    color:whitesmoke
+}
+
+a{
+    text-decoration: none;
+    
+}
+a:hover, a:focus{
+    color: whitesmoke;
+    background-color: dodgerblue;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:active{
+    color: chocolate;
+}
+
+.foot{
+    display: inline;
+    position: sticky;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    margin: 30px;
+    word-spacing: 1.5rem;
+    
+}
